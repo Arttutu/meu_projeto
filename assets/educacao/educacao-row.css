@@ -1,0 +1,20 @@
+.educacao__row{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+@media (max-width: 768px)  {
+    
+    .educacao__row{
+        flex-direction: column;
+      
+    }
+
+
+}
+
+

@@ -1,0 +1,6 @@
+.conhecimentos__coluna{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}

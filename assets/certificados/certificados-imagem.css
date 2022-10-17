@@ -1,0 +1,25 @@
+.certificado_Imagem{
+    width: 750px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px)  {
+    .certificado_Imagem{
+       width: 490px;
+       height: 450px;
+      
+
+
+}
+
+}
+@media (max-width: 500px)  {
+    .certificado_Imagem{
+       width: 350px;
+       height:300px;
+
+
+}
+
+}

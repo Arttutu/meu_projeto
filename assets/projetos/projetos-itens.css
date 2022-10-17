@@ -1,0 +1,21 @@
+.projetos__itens{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+   
+
+   
+  
+  
+}
+@media (max-width: 768px)  {
+    
+    .projetos__itens{
+       flex-direction: column;
+
+
+}
+
+}

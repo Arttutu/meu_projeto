@@ -1,0 +1,27 @@
+.sobreMim{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 840px;
+}
+@media (max-width: 768px)  {
+    .sobreMim{
+       width: 500px;
+       margin-left: auto;
+       margin-right: auto;
+
+
+}
+
+}
+@media (max-width: 500px)  {
+    .sobreMim{
+       width: 300px;
+
+
+}
+
+}
+ 

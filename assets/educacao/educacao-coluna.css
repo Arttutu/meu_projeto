@@ -1,0 +1,10 @@
+.educacao__coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+@media (max-width: 768px){
+    .educacao__coluna .primeiro{
+        margin-bottom: 20px;
+    }
+}

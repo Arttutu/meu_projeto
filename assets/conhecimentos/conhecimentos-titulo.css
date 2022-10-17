@@ -1,0 +1,14 @@
+.conhecimentos__titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+@media (max-width: 768px)  {
+    
+    .conhecimentos__titulo{
+    text-align: center;
+
+
+}
+
+}
+

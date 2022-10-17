@@ -1,0 +1,30 @@
+.linguagem{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 40px;
+    width: 840px;
+}
+@media (max-width: 768px)  {
+    
+    .linguagem{
+       width: 500px;
+       margin-left: auto;
+       margin-right: auto;
+
+
+}
+
+}
+@media (max-width: 500px)  {
+
+    .linguagem{
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+
+
+    }   
+}

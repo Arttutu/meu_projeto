@@ -1,0 +1,16 @@
+.linguagem__row{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+@media (max-width: 768px)  {
+    
+    .linguagem__row{
+      justify-content: space-around;
+      flex-direction: column;
+
+
+}
+
+}

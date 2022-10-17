@@ -1,0 +1,14 @@
+.sobreMim__descricao{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media (max-width: 768px){
+    .sobreMim__descricao{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+}

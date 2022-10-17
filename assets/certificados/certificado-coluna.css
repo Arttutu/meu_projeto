@@ -1,0 +1,6 @@
+.certificados_coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

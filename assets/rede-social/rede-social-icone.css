@@ -1,0 +1,9 @@
+.rede-social__icone{
+    width: 35px;
+    height: 35px;
+}
+.rede-social__icone:hover{
+    background-color: #2F4F4F;
+    border-radius: 17px;
+    transition: 0.3s;
+}

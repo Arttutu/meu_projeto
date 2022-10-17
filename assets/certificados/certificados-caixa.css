@@ -1,0 +1,24 @@
+.certificados__caixas{
+    width: 750px;
+    height: 700px;
+    overflow: hidden;
+}
+@media (max-width: 768px)  {
+    .certificados__caixas{
+        width: 490px;
+       height: 500px;
+      
+
+
+}
+
+}
+@media (max-width: 500px)  {
+    .certificados__caixas{
+       width: 350px;
+       height: 400px;
+
+
+}
+
+}

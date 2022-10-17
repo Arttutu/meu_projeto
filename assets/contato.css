@@ -1,0 +1,27 @@
+.contato{
+    background: whitesmoke;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 840px;
+}
+@media (max-width: 768px)  {
+    .contato{
+       width: 500px;
+     
+
+
+}
+
+}
+@media (max-width: 500px)  {
+    .contato{
+       width: 300px;
+
+
+}
+
+}
+ 
