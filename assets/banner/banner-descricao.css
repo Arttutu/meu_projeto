@@ -5,6 +5,7 @@
     color: #f9f9f9;
     font-weight:100;
     font-size: 20px;
+    margin-left: 50%;
     font-family: 'Roboto', sans-serif;
 } 
 @media (max-width: 768px){
