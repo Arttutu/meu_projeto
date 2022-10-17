@@ -4,7 +4,7 @@
     align-items: left;
 }
 @media (max-width: 768px){
-    .educacao__coluna .primeiro{
+    .educacao__coluna {
         margin-bottom: 20px;
     }
 }
