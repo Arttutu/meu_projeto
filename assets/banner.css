@@ -4,6 +4,14 @@
     flex-direction: column;
   
 }
+@media (max-width: 500px)  {
+    .banner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
 
 
  
