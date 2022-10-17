@@ -15,8 +15,8 @@
 }
 @media (max-width: 500px)  {
     .certificados__caixas{
-       width: 350px;
-       height: 400px;
+        width: 230px;
+        height:300px;
 
 
 }
