@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 50px;
-   
-
-   
+    margin-left: 50px;  
   
   
 }
+.projetos__itens,.projeto__nome:hover{
+    font-size: 18px;
+}
+
 @media (max-width: 768px)  {
     
     .projetos__itens{
