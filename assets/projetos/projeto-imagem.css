@@ -1,8 +1,33 @@
-.projeto__imagem{
+.projeto__imagemFlutter{
+
+    background: url('../img/flutter__app.png') center /cover no-repeat;
+    
     height: 150px;
     width: 250px;
     border-radius: 5px;
+    
    
+}
+.projeto__imagemPiano{
+    
+    background: url('../img/piano.jpg.png') center /cover no-repeat;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+}
+.projeto_imagemPessoal{
+    background: url('../img/foto_site.png') center /cover no-repeat;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+.projeto__imagemReceita{
+    background: url('../img/site__receita.css.png') center /cover no-repeat;
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+
 }
 .projeto__imagem:hover{
  

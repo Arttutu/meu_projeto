@@ -1,0 +1,22 @@
+.navbar{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color:linear-gradient(#2F4F4F, #C0C0C0);
+    height: 8vh;
+    padding: 20px;
+ 
+    margin:auto auto;
+
+}
+.navlist{
+    display: flex;
+    list-style: none;
+}
+.navlist li{
+    
+    letter-spacing: 3px;
+    margin-right: 32px;
+
+}

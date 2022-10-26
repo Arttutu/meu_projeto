@@ -4,18 +4,9 @@
 .grid1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:20px;
-    max-width: 800px;
-    margin: 0 auto;
+    grid-template-rows: 50% 50%;
 }
-.grid2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:20px;
-    max-width: 800px;
-    margin: 0 auto;
- 
-}
+
 
 
 .projetos__itens,.projeto__nome:hover{
