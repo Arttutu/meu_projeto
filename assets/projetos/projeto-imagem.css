@@ -38,7 +38,7 @@
 
 @media(max-width:768px){
 
-    .projeto__imagem{
+    .projeto__imagemReceita,.projeto__imagemPiano,.projeto_imagemPessoal, .projeto__imagemFlutter{
         width: 200px;
         height: 150px;
     }
