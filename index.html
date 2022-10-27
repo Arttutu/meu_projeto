@@ -71,6 +71,7 @@
     <link href="assets\rodape\rodape-item.css" rel="stylesheet"/>
     <link href="assets\rodape\rodape-mensagem.css" rel="stylesheet"/>
 
+    <script defer src="js\form.js"></script>
     <STYLE>A {text-decoration: none;} </STYLE>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
@@ -344,10 +345,16 @@
 
                     <section class="contato">
                       
-                            <h2 class = "contato__titulo">Contato - Área em implementação</h2>
-                            <form action="" class="reveal-content">
+                            <h2 class = "contato__titulo">Contato</h2>
+                            <form action="https://formsubmit.co/ajax/arthurtt08@gmail.com"  
+                                  method="POST"
+                                  data-form
+                                  >
                                 <div class="contato_caixa">
-                                    <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                                </div>
+                                <div class="contato_caixa">
+                                    <input type="email" class="form-control" name ="email" id="email" placeholder="E-mail" required>
                                 </div>
                                 <div class="contato_caixa">
                                     <input type="text" class="form-control" id="subject" placeholder="assunto" required>
@@ -356,7 +363,7 @@
                                     <textarea class="contato-caixa__mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
                                 </div>
                                 <div class="contato_caixa">
-                                    <button type="submit" class=" contato-caixa__botao">Enviar mensagem</button>
+                                    <button type="submit" class="contato-caixa__botao" data-button>Enviar mensagem</button>
                                 </div>
                             </form>
     

@@ -12,6 +12,19 @@
     width: 100%;
 
 }
+.contato_caixa #nome{
+        border: none;
+        border-radius: 5px;
+        background: #e0dddd;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        height: 35px;
+        width: 100%;
+    }
+
 .contato_caixa #subject{
 
     border: none;
@@ -41,4 +54,12 @@
     height:150px;
     width: 100%;
 
+}
+.success{
+    color:greenyellow;
+    text-align: center;
+}
+.error{
+    color:tomato;
+    text-align: center;
 }
