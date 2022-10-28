@@ -70,9 +70,9 @@
     <link href="assets\rodape.css" rel="stylesheet"/>
     <link href="assets\rodape\rodape-item.css" rel="stylesheet"/>
     <link href="assets\rodape\rodape-mensagem.css" rel="stylesheet"/>
-
+    <link href="assets\navegacao.css" rel="stylesheet" />
     <script defer src="js\form.js"></script>
-    <STYLE>A {text-decoration: none;} </STYLE>
+    <STYLE>a {text-decoration: none;} </STYLE>
    
 
 </head>
@@ -80,7 +80,26 @@
 <body class="corpo">
     <main>
         <header>
-            <div class="banner">
+        <!--
+            Arquivo da navegação para ser implementado depois
+            <nav class="navegacao" >
+                <ul>
+                    <li class="navegacao__link">
+                        <a class = "navegacao__link_nome" href = '#banner'>Início</a>
+                    </li>
+                    <li class="navegacao__link">
+                        <a class = "navegacao__link_nome" href = '#projetos'>Projetos</a>
+                    </li >
+                    <li class="navegacao__link">
+                        <a class = "navegacao__link_nome" href = '#contato'> Contatos</a>
+                    </li>
+                    <li class="navegacao__link">
+                        <a class = "navegacao__link_nome" href = '#certificados'> Certificados</a>
+                    </li>
+                </ul>
+            </nav>
+        -->
+            <div class="banner" id="banner">
 
                 <h1 class="banner__nome"> Arthur Gomes</h1>
                 <p class="banner__descricao">Estudante de programação</p>
@@ -134,7 +153,7 @@
 
                     </section>
 
-                    <section class="projetos">
+                    <section class="projetos" id="projetos">
 
                         <h2 class="projetos__titulo">Projetos</h2>
 
@@ -263,7 +282,7 @@
 
                     </div>
 
-                    <div class="certificados">
+                    <div class="certificados" id="certificados">
                         <h2 class="certificados__titulo">Licenças e certificados extras currículares</h2>
                         <div class="certificados_coluna">
                             <div class="certificados__caixas">
@@ -341,7 +360,7 @@
                        
                     </section>
 
-                    <section class="contato">
+                    <section class="contato" id="contato">
                       
                             <h2 class = "contato__titulo">Contato</h2>
                             <form action="https://formsubmit.co/ajax/arthurtt08@gmail.com"  

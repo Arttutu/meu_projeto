@@ -1,0 +1,39 @@
+/*
+.navegacao{
+    width: 840px;
+    height: 40px;
+    top:0px;
+    left: 257px;
+    position: fixed;
+    background-color: whitesmoke;
+    border-radius: 5px;
+
+}
+ul{
+    padding-left: 0px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+
+  
+}
+.navegacao__link{
+    padding-bottom: 10px;
+    list-style-type: none;
+  
+}
+.navegacao__link_nome{
+   
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+@media(max-width: 768px){
+    .navegacao{
+        width: 100%;
+        left:0px;
+    }
+}
+*/
