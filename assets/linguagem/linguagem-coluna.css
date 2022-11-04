@@ -1,7 +1,5 @@
-.linguagem__coluna{
-    display: flex;
-    align-items: center;
-    margin-right: 200px;
+.linguagem__coluna {
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
 }
-   
-

@@ -1,11 +1,7 @@
-
-.banner__rede-social{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0px;
-    margin-top: 0px;
-    
-    
+.banner__rede-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 0px;
 }
- 

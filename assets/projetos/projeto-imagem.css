@@ -1,46 +1,38 @@
+.projeto__imagemFlutter {
+  background: url("../img/flutter__app.png") center / cover no-repeat;
 
-.projeto__imagemFlutter{
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+}
+.projeto__imagemPiano {
+  background: url("../img/piano.jpg.png") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+}
+.projeto_fotoSite {
+  background: url("../img/projetos/foto_site.png") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+}
+.projeto__imagemReceita {
+  background: url("../img/site__receita.css.png") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+}
+.projeto__imagem:hover {
+  cursor: pointer;
+}
 
-    background: url('../img/flutter__app.png') center /cover no-repeat;
-    
+@media (max-width: 768px) {
+  .projeto__imagemReceita,
+  .projeto__imagemPiano,
+  .projeto_imagemPessoal,
+  .projeto__imagemFlutter {
+    width: 200px;
     height: 150px;
-    width: 250px;
-    border-radius: 5px;
-    
-   
-}
-.projeto__imagemPiano{
-    
-    background: url('../img/piano.jpg.png') center /cover no-repeat;
-    height: 150px;
-    width: 250px;
-    border-radius: 5px;
-}
-.projeto_imagemPessoal{
-    background: url('../img/foto_site.png') center /cover no-repeat;
-    height: 150px;
-    width: 250px;
-    border-radius: 5px;
-
-}
-.projeto__imagemReceita{
-    background: url('../img/site__receita.css.png') center /cover no-repeat;
-    height: 150px;
-    width: 250px;
-    border-radius: 5px;
-
-}
-.projeto__imagem:hover{
- 
-    cursor: pointer
-
-}
-
-
-@media(max-width:768px){
-
-    .projeto__imagemReceita,.projeto__imagemPiano,.projeto_imagemPessoal, .projeto__imagemFlutter{
-        width: 200px;
-        height: 150px;
-    }
+  }
 }

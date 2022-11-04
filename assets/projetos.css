@@ -1,33 +1,21 @@
-.projetos{
-    background-color: whitesmoke;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-    width: 840px;
-   height: auto;
- 
-    
-  
+.projetos {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  width: 840px;
+  height: auto;
 }
 
-@media (max-width: 768px)  {
-    
-    .projetos{
-       width: 500px;
-   
-
-
+@media (max-width: 768px) {
+  .projetos {
+    width: 500px;
+  }
 }
-
-}
-@media (max-width: 500px)  {
-
-    .projetos{
-       width: 240px;
-     
-
-
-    }   
+@media (max-width: 500px) {
+  .projetos {
+    width: 240px;
+  }
 }

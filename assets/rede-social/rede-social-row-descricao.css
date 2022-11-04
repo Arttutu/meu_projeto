@@ -1,14 +1,11 @@
-.rede-social__descricao{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    padding-left: 10px;
-    color: black;
+.rede-social__descricao {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+  color: black;
 }
-@media (max-width: 500px)  {
-    .rede-social__descricao{
-        text-align: center;
-
+@media (max-width: 500px) {
+  .rede-social__descricao {
+    text-align: center;
+  }
 }
-
-}
- 

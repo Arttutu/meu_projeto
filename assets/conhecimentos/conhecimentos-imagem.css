@@ -1,28 +1,21 @@
-.conhecimentos__imagens-javascript{
-
-    background-image: url("../../assets/img/habilidades-icone/js-96.png");
-    height: 96px;
-    width: 96px;
-    
+.conhecimentos__imagens-javascript {
+  background-image: url("../../assets/img/habilidades-icone/js-96.png");
+  height: 96px;
+  width: 96px;
 }
-.conhecimentos__imagens-html{
-
-    background-image: url("../../assets/img/habilidades-icone/html-96.png");
-    height: 96px;
-    width: 96px;
+.conhecimentos__imagens-html {
+  background-image: url("../../assets/img/habilidades-icone/html-96.png");
+  height: 96px;
+  width: 96px;
 }
-    
-.conhecimentos__imagens-css{
 
-    background-image: url("../../assets/img/habilidades-icone/css3-96.png");
-    height: 96px;
-    width: 96px;
-
+.conhecimentos__imagens-css {
+  background-image: url("../../assets/img/habilidades-icone/css3-96.png");
+  height: 96px;
+  width: 96px;
 }
-.conhecimentos__imagens-python{
-
-    background-image: url("../../assets/img/habilidades-icone/python-96.png");
-    height: 96px;
-    width: 96px;
-
+.conhecimentos__imagens-python {
+  background-image: url("../../assets/img/habilidades-icone/python-96.png");
+  height: 96px;
+  width: 96px;
 }

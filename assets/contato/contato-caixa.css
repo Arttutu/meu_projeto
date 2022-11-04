@@ -1,68 +1,62 @@
-.form{
-    margin-left: 0;
+.form {
+  margin-left: 0;
 }
-.contato_caixa #email{
-
-    border: none;
-    border-radius: 5px;
-    background: #e0dddd;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 900;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    height: 35px;
-    width: 100%;
-
+.contato_caixa #email {
+  border: none;
+  border-radius: 5px;
+  background: #e0dddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 35px;
+  width: 100%;
 }
-.contato_caixa #nome{
-        border: none;
-        border-radius: 5px;
-        background: #e0dddd;
-        font-family: 'Roboto', sans-serif;
-        font-size: 15px;
-        font-weight: 900;
-        margin-bottom: 15px;
-        padding-left: 15px;
-        height: 35px;
-        width: 100%;
-    }
-
-.contato_caixa #subject{
-
-    border: none;
-    border-radius: 5px;
-    background: #e0dddd;; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 900;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    height: 35px;
-    width: 100%;
-
+.contato_caixa #nome {
+  border: none;
+  border-radius: 5px;
+  background: #e0dddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 35px;
+  width: 100%;
 }
 
-.contato-caixa__mensagem{
-
-    border: none;
-    border-radius: 5px;
-    background: #e0dddd;; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 900;
-    margin-bottom: 15px;
-    padding-top: 10px;
-    padding-left: 15px;
-    height:150px;
-    width: 100%;
-
+.contato_caixa #subject {
+  border: none;
+  border-radius: 5px;
+  background: #e0dddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  height: 35px;
+  width: 100%;
 }
-.success{
-    color: #2F4F4F;
-    text-align: center;
+
+.contato-caixa__mensagem {
+  border: none;
+  border-radius: 5px;
+  background: #e0dddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  height: 150px;
+  width: 100%;
 }
-.error{
-    color:tomato;
-    text-align: center;
+.success {
+  color: #2f4f4f;
+  text-align: center;
+}
+.error {
+  color: tomato;
+  text-align: center;
 }

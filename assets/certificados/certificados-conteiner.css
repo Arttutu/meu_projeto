@@ -1,17 +1,13 @@
-.certificados__conteiner{
-    width: 33.33%;
-    transition: 0.2s;
-    
+.certificados__conteiner {
+  width: 33.33%;
+  transition: 0.2s;
 }
-#radio1:checked ~ .certificados__conteiner_primeiro{
-
-    margin-left: 0;
+#radio1:checked ~ .certificados__conteiner_primeiro {
+  margin-left: 0;
 }
-#radio2:checked ~ .certificados__conteiner_primeiro{
-
-    margin-left: -33.33%;
+#radio2:checked ~ .certificados__conteiner_primeiro {
+  margin-left: -33.33%;
 }
-#radio3:checked ~ .certificados__conteiner_primeiro{
-
-    margin-left: -66.66% ;
+#radio3:checked ~ .certificados__conteiner_primeiro {
+  margin-left: -66.66%;
 }

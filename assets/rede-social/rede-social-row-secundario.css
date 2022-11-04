@@ -1,18 +1,12 @@
-.rede-social__row-segundo{
-    display: flex;
-    flex-direction: row;
+.rede-social__row-segundo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .rede-social__row-segundo {
+    flex-direction: column;
     align-items: center;
-   
-   
+  }
 }
-
-@media (max-width: 500px)  {
-    .rede-social__row-segundo{
-      flex-direction: column;
-      align-items: center;
-
-
-}
-
-}
- 

@@ -1,15 +1,13 @@
-.sobreMim__descricao{
-
-    font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+.sobreMim__descricao {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-
-@media (max-width: 768px){
-    .sobreMim__descricao{
-        padding-top: 20px;
-        font-size: 15px;
-        text-align: center;
-    }
+@media (max-width: 768px) {
+  .sobreMim__descricao {
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
 }

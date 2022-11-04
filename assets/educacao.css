@@ -1,30 +1,21 @@
-.educacao{
-
-    background: whitesmoke;
-    border-radius: 5px;
-    margin-top: 50px;
+.educacao {
+  background: whitesmoke;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  width: 840px;
+}
+@media (max-width: 768px) {
+  .educacao {
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
-    width: 840px;
+  }
 }
-@media (max-width: 768px)  {
-    
-    .educacao{
-       width: 500px;
-       margin-left: auto;
-       margin-right: auto;
-
-
-}
-
-}
-@media (max-width: 500px)  {
-
-    .educacao{
-       width: 240px;
-       
-
-
-    }   
+@media (max-width: 500px) {
+  .educacao {
+    width: 240px;
+  }
 }

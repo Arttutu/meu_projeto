@@ -1,18 +1,11 @@
-.projeto__item{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    
+.projeto__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-@media (max-width: 768px){
-    .projeto__item{
-     
-      padding-bottom: 20px;
-      
-      
-   
-}
-
+@media (max-width: 768px) {
+  .projeto__item {
+    padding-bottom: 20px;
+  }
 }

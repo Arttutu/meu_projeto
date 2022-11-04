@@ -1,13 +1,12 @@
-
-.banner__nome{
-    color: #f9f9f9;
-    text-align: center;
-    margin-top: 70px;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+.banner__nome {
+  color: #f9f9f9;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
 }
-@media (max-width: 768px){
-    .banner__nome{
+@media (max-width: 768px) {
+  .banner__nome {
     font-size: 30px;
-    }
+  }
 }

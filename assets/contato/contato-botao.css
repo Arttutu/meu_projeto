@@ -1,25 +1,18 @@
-.contato-caixa__botao{
-    background-color:#2F4F4F;
-    border: none;
-    border-radius: 20px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
-    width: 15%;
-    height: 40px;
-
+.contato-caixa__botao {
+  background-color: #2f4f4f;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+  width: 15%;
+  height: 40px;
 }
-.contato-caixa__botao:hover{
-    cursor: pointer;
+.contato-caixa__botao:hover {
+  cursor: pointer;
 }
-@media (max-width: 768px)  {
-    .contato-caixa__botao{
-       width: 100%;
-     
-
-
+@media (max-width: 768px) {
+  .contato-caixa__botao {
+    width: 100%;
+  }
 }
-
-}
-
- 
