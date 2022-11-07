@@ -7,7 +7,7 @@ function creatProject(link, img, title, overview, codigo) {
             </a>
             <h3 class="projeto__nome">${title}</h3>
             <p class="projeto__descricao">${overview}</p>
-             <a href ="${link}" class = "codigo"><button class = "codigo"> Código </button></a>
+            <button class = "codigo">  <a href ="${link}" class = "codigo">Código </a></button>
         </div>
   `
 }

@@ -7,5 +7,6 @@
   .linguagem__row {
     justify-content: space-around;
     flex-direction: column;
+    gap: 1rem;
   }
 }

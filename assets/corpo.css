@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --cor-verde: #2f4f4f;
+  --cor-branca-pastel: #c0c0c0;
+}
 .corpo {
   /*
  background-image:linear-gradient(#ff0060,#ff6975 );

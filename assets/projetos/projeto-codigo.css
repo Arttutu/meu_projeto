@@ -2,11 +2,16 @@
   border-radius: 5px;
   border: none;
   text-align: center;
-  background-color: #2f4f4f;
-  padding: 5px 10px;
+  background-color: var(--cor-verde);
+  padding: 10px 20px;
+  transition: 0.5s;
 }
-.codigo button {
+.codigo a {
   align-items: center;
   text-decoration: italic;
+  background-color: var(--cor-verde);
   color: whitesmoke;
+}
+.codigo:hover {
+  background-color: var(--cor-branca-pastel);
 }
