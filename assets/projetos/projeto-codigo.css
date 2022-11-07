@@ -1,0 +1,12 @@
+.codigo {
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  background-color: #2f4f4f;
+  padding: 5px 10px;
+}
+.codigo button {
+  align-items: center;
+  text-decoration: italic;
+  color: whitesmoke;
+}

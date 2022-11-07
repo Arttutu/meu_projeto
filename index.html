@@ -9,7 +9,6 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="assets\reset.css" rel="stylsheet" />
   <link href="assets\corpo.css" rel="stylesheet" />
   <link href="assets\banner\banner-nome.css" rel="stylesheet" />
   <link href="assets\banner\banner.css" rel="stylesheet" />
@@ -29,6 +28,7 @@
   <link href="assets\projetos\projetos-itens.css" rel="stylesheet" />
   <link href="assets\projetos\projeto--descricao.css" rel="stylesheet" />
   <link href="assets\projetos\projeto--nome.css" rel="stylesheet" />
+  <link href="assets\projetos\projeto-codigo.css" rel="stylesheet" />
   <link href="assets\educacao.css" rel="stylesheet" />
   <link href="assets\educacao\educacao-coluna.css" rel="stylesheet" />
   <link href="assets\educacao\educacao-data.css" rel="stylesheet" />
@@ -72,6 +72,7 @@
   <link href="assets\rodape\rodape-mensagem.css" rel="stylesheet" />
   <link href="assets\navegacao.css" rel="stylesheet" />
   <script defer src="js\form.js"></script>
+  <script defer src="./js/projeto.js"></script>
   <STYLE>
     a {
       text-decoration: none;
@@ -82,27 +83,9 @@
 </head>
 
 <body class="corpo">
+
   <main>
     <header>
-      <!--
-            Arquivo da navegação para ser implementado depois
-            <nav class="navegacao" >
-                <ul>
-                    <li class="navegacao__link">
-                        <a class = "navegacao__link_nome" href = '#banner'>Início</a>
-                    </li>
-                    <li class="navegacao__link">
-                        <a class = "navegacao__link_nome" href = '#projetos'>Projetos</a>
-                    </li >
-                    <li class="navegacao__link">
-                        <a class = "navegacao__link_nome" href = '#contato'> Contatos</a>
-                    </li>
-                    <li class="navegacao__link">
-                        <a class = "navegacao__link_nome" href = '#certificados'> Certificados</a>
-                    </li>
-                </ul>
-            </nav>
-        -->
       <div class="banner" id="banner">
 
         <h1 class="banner__nome"> Arthur Gomes</h1>
@@ -159,10 +142,11 @@
 
       <h2 class="projetos__titulo">Projetos</h2>
 
-      <div class="projetos__itens">
+      <div class="grid"></div>
 
 
-      </div>
+
+
 
     </section>
     <section class="educacao">
@@ -359,7 +343,7 @@
 
     </div>
   </footer>
-  <script src="./js/projeto.js"></script>
+
 </body>
 
 </html>

@@ -12,6 +12,7 @@
   padding-left: 15px;
   height: 35px;
   width: 100%;
+  transition: 0.5s;
 }
 .contato_caixa #nome {
   border: none;
@@ -24,6 +25,7 @@
   padding-left: 15px;
   height: 35px;
   width: 100%;
+  transition: 0.5s;
 }
 
 .contato_caixa #subject {
@@ -37,6 +39,7 @@
   padding-left: 15px;
   height: 35px;
   width: 100%;
+  transition: 0.5s;
 }
 
 .contato-caixa__mensagem {
@@ -51,6 +54,19 @@
   padding-left: 15px;
   height: 150px;
   width: 100%;
+  transition: 0.5s;
+}
+.contato-caixa__mensagem:focus {
+  border: 2px solid #2f4f4f;
+}
+.contato_caixa #subject:focus {
+  border: 2px solid #2f4f4f;
+}
+.contato_caixa #nome:focus {
+  border: 2px solid #2f4f4f;
+}
+.contato_caixa #email:focus {
+  border: 2px solid #2f4f4f;
 }
 .success {
   color: #2f4f4f;

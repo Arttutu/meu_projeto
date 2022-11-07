@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .corpo {
   /*
  background-image:linear-gradient(#ff0060,#ff6975 );
  */
   background: linear-gradient(#2f4f4f, #c0c0c0);
+  color: #2f4f4f;
 }
 .htmL {
   scroll-behavior: smooth;

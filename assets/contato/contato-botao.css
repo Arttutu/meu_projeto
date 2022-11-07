@@ -7,9 +7,13 @@
   color: whitesmoke;
   width: 15%;
   height: 40px;
+  transition: 0.5s;
 }
 .contato-caixa__botao:hover {
   cursor: pointer;
+}
+.contato-caixa__botao:hover {
+  background-color: #c0c0c0;
 }
 @media (max-width: 768px) {
   .contato-caixa__botao {

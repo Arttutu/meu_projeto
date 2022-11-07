@@ -1,21 +1,23 @@
 .projeto__imagemFlutter {
   background: url("../img/flutter__app.png") center / cover no-repeat;
-
   height: 150px;
   width: 250px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 .projeto__imagemPiano {
-  background: url("../img/piano.jpg.png") center / cover no-repeat;
+  background: url("../img/projetos/imagemPiano.png") center / cover no-repeat;
   height: 150px;
   width: 250px;
   border-radius: 5px;
+  transition: 0.5s;
 }
-.projeto_fotoSite {
+.projeto__imagemSite {
   background: url("../img/projetos/foto_site.png") center / cover no-repeat;
   height: 150px;
   width: 250px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 .projeto__imagemReceita {
   background: url("../img/site__receita.css.png") center / cover no-repeat;
@@ -23,16 +25,47 @@
   width: 250px;
   border-radius: 5px;
 }
-.projeto__imagem:hover {
-  cursor: pointer;
+.projeto__imagemNlw {
+  background: url("../img/projetos/imagemNlw.jpg") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.projeto__imagemvalidacaoJs {
+  background: url("../img/projetos/validacao-js.jpeg") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.projeto__imagemGithub {
+  background: url("../img/projetos/imagemGithub.jpg") center / cover no-repeat;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.projeto__imagemNlw:hover,
+.projeto__imagemGithub:hover,
+.projeto__imagemPiano:hover,
+.projeto__imagemSite:hover,
+.projeto__imagemFlutter:hover,
+.projeto__imagemvalidacaoJs:hover {
+  border: 2px solid black;
+  height: 200px;
+  width: 300px;
 }
 
 @media (max-width: 768px) {
-  .projeto__imagemReceita,
-  .projeto__imagemPiano,
-  .projeto_imagemPessoal,
-  .projeto__imagemFlutter {
-    width: 200px;
-    height: 150px;
+  .projeto__imagemvalidacaoJs:hover {
+    border: 2px solid #2f4f4f;
+    height: 160px;
+    width: 260px;
+  }
+  .projeto__imagemSite:hover {
+    border: 2px solid black;
+    height: 160px;
+    width: 260px;
   }
 }

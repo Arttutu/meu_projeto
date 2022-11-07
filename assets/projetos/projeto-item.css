@@ -1,8 +1,11 @@
 .projeto__item {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  gap: 0.5rem;
+  padding-bottom: 30px;
 }
 @media (max-width: 768px) {
   .projeto__item {
