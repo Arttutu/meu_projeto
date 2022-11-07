@@ -28,7 +28,7 @@ document.querySelector(".grid").innerHTML =
     "https://github.com/Arttutu/formulario-js"
   ) +
   creatProject(
-    "https://github.com/Arttutu/meu_portfolio",
+    "https://github.com/Arttutu/app_movies",
     "imagemFlutter",
     "Aplicativo de Filme",
     "Meu primeiro projeto em flutter. Um catálogo de filmes e séries a partir da API do TMDB",
@@ -39,7 +39,7 @@ document.querySelector(".grid").innerHTML =
     "imagemNlw",
     "Calendário Copa de Mundo 2022 Brasil",
     "Site feito com HTML5, CSS3 e JavaScript. Calendário da Copa é um projeto que mostra os jogos da copa do mundo de 2022.",
-    "https://github.com/Arttutu/nlw-copa-do-mundo"
+    "https://arttutu.github.io/nlw-copa-do-mundo/"
   ) +
   creatProject(
     "https://arttutu.github.io/piano-virtual/",
