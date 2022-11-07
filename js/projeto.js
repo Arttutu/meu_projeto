@@ -39,7 +39,7 @@ document.querySelector(".grid").innerHTML =
     "imagemNlw",
     "Calendário Copa de Mundo 2022 Brasil",
     "Site feito com HTML5, CSS3 e JavaScript. Calendário da Copa é um projeto que mostra os jogos da copa do mundo de 2022.",
-    "https://arttutu.github.io/nlw-copa-do-mundo/"
+    "https://github.com/Arttutu/nlw-copa-do-mundo"
   ) +
   creatProject(
     "https://arttutu.github.io/piano-virtual/",
