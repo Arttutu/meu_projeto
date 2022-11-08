@@ -69,10 +69,11 @@
   <link href="assets\contato\contato-titulo.css" rel="stylesheet" />
   <link href="assets\rodape.css" rel="stylesheet" />
   <link href="assets\rodape\rodape-item.css" rel="stylesheet" />
-  <link href="assets\rodape\rodape-mensagem.css" rel="stylesheet" />
   <link href="assets\navegacao.css" rel="stylesheet" />
+
   <script defer src="js\form.js"></script>
   <script defer src="./js/projeto.js"></script>
+  <script defer src="./js/nav.js"></script>
   <STYLE>
     a {
       text-decoration: none;
@@ -83,9 +84,40 @@
 </head>
 
 <body class="corpo">
+  <header>
+    <nav id="nav__bar">
+      <div class="logo__nave">
+        <h1>Menu</h1>
+      </div>
+      <div class="nav__list">
+        <ul>
+          <li class="nav__item"> <a href="#nav__bar" class="nav__link">Início</a></li>
+          <li class="nav__item"> <a href="#projetos" class="nav__link">Projetos</a></li>
+          <li class="nav__item"> <a href="#sobreMim" class="nav__link">Sobre</a></li>
+          <li class="nav__item"> <a href="#certificados" class="nav__link">Certificados</a></li>
+          <li class="nav__item"> <a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </div>
 
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="assets/img/menu/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mobile__menu">
+
+      <ul>
+        <li> <a href="#nav__bar" class="nav__link">Início</a></li>
+        <li> <a href="#projetos" class="nav__link">Projetos</a></li>
+        <li> <a href="#sobreMim" class="nav__link">Sobre</a></li>
+        <li> <a href="#certificados" class="nav__link">Certificados</a></li>
+        <li> <a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+
+    </div>
+
+  </header>
   <main>
-    <header>
+    <section class="logo">
       <div class="banner" id="banner">
 
         <h1 class="banner__nome"> Arthur Gomes</h1>
@@ -111,10 +143,10 @@
         </ul>
 
       </div>
-    </header>
+    </section>
 
 
-    <section class="sobreMim">
+    <section class="sobreMim" id="sobreMim">
 
       <h2 class="sobreMim__titulo">Sobre mim</h2>
 
