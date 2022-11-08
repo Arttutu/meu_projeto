@@ -1,7 +1,11 @@
 .rodape__mensagem {
   color: #2f4f4f;
   text-align: center;
-  margin-top: 70px;
+  font-weight: bolder;
   font-size: 25px;
   font-family: "Roboto", sans-serif;
+}
+@media (max-width: 500px) {
+  .rodape__mensagem {
+  }
 }
