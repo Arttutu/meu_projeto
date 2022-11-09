@@ -1,9 +1,11 @@
 .codigo {
+  display: flex;
+  align-items: center;
   border-radius: 5px;
   border: none;
   text-align: center;
   background-color: var(--cor-verde);
-  padding: 10px 20px;
+  padding: 5px 5px;
   transition: 0.2s;
 }
 .codigo a {
@@ -11,7 +13,9 @@
   text-decoration: italic;
   background-color: var(--cor-verde);
   color: whitesmoke;
+  transition: 0.1s;
 }
+.codigo a:hover,
 .codigo:hover {
   background-color: var(--cor-branca-pastel);
 }
