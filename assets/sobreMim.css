@@ -6,8 +6,9 @@
   padding: 40px;
   width: 840px;
   font-family: "Roboto", sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) {s
   .sobreMim {
     width: 500px;
     margin-left: auto;
