@@ -6,6 +6,7 @@
   margin-top: 50px;
   padding: 40px;
   width: 840px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
 }
 @media (max-width: 768px) {
   .linguagem {
