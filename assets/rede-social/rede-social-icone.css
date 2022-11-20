@@ -3,7 +3,7 @@
   height: 35px;
 }
 .rede-social__icone:hover {
-  background-color: #2f4f4f;
+  background-color: var(--cor-destaque);
   border-radius: 17px;
   transition: 0.3s;
 }

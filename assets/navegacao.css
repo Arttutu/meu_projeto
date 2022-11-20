@@ -3,18 +3,18 @@ header {
   top: 0px;
   width: 100%;
   height: auto;
-  background-color: var(--branca);
+  background-color: var(--cor-grey);
   border-bottom: 2px solid rgba(0, 0, 0, 0.39);
   z-index: 1;
 }
 .logo__nave {
-  border: 1px solid var(--cor-verde);
+
   border-radius: 5px;
   margin-bottom: 5px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 5px;
-  background-color: var(--cor-verde);
+ 
   color: var(--branca);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -33,11 +33,11 @@ header {
   margin-left: 50px;
 }
 .nav__link {
-  border: 1px solid var(--cor-verde);
+
   border-radius: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: var(--cor-verde);
+
   color: rgba(255, 255, 255, 0.438);
   font-size: 17px;
   font-family: "Roboto", sans-serif;

@@ -1,5 +1,5 @@
 .rodape__mensagem {
-  color: #2f4f4f;
+  color: var(--cor-destaque);
   text-align: center;
   font-weight: bolder;
   line-height: 2rem;

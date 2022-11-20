@@ -1,5 +1,5 @@
 .contato-caixa__botao {
-  background-color: #2f4f4f;
+  background-color: var(--cor-destaque);
   border: none;
   border-radius: 20px;
   font-size: 15px;
