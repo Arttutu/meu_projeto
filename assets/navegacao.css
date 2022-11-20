@@ -8,13 +8,12 @@ header {
   z-index: 1;
 }
 .logo__nave {
-
   border-radius: 5px;
   margin-bottom: 5px;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 5px;
- 
+
   color: var(--branca);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -33,7 +32,6 @@ header {
   margin-left: 50px;
 }
 .nav__link {
-
   border-radius: 5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -52,13 +50,12 @@ header {
 }
 .nav__link__home:hover,
 .nav__link:hover {
-  color: var(--cor-branca-pastel);
+  color: var(--cor-destaque);
 }
 .login__button button {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
- 
 }
 
 .login__button button a {
@@ -77,7 +74,6 @@ header {
   header {
     height: auto;
     width: 100%;
-
   }
   #nav__bar {
     justify-content: space-between;
@@ -91,7 +87,6 @@ header {
     background-color: var(--cor-grey);
     height: auto;
     width: 100%;
- 
   }
   .mobile-menu-icon {
     display: block;
@@ -119,6 +114,5 @@ header {
 
   .open {
     display: block;
-  
   }
 }

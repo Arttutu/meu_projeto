@@ -19,6 +19,6 @@
   margin-right: 40px;
 }
 .certificados_navegacao-slider-botao:hover {
-  background-color: #2f4f4f;
+  background-color: var(--cor-destaque);
   transition: 0.5s;
 }
