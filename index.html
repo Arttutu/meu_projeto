@@ -356,19 +356,19 @@
     <section class="contato" id="contato">
 
       <h2 class="contato__titulo">Me contrate</h2>
-      <form action="https://formsubmit.co/ajax/arthurtt08@gmail.com" method="POST" data-form>
+      <form  id ="formulario"action="https://formsubmit.co/ajax/arthurtt08@gmail.com" method="POST" data-form>
         <div class="contato_caixa">
-          <input type="text" name="nome" id="nome" placeholder="Nome" required>
+          <input type="text" name="nome" id="nome" placeholder="Nome" class="required" required>
         </div>
         <div class="contato_caixa">
-          <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+          <input type="email" class="form-control" name="email" id="email" class="required" placeholder="E-mail" required>
         </div>
         <div class="contato_caixa">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="assunto" required>
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="assunto" class="required"required>
         </div>
         <div class="contato_caixa">
           <textarea class="contato-caixa__mensagem" name="mensagem" id="mensagem" rows="5"
-            placeholder="Escreva sua mensagem" required></textarea>
+            placeholder="Escreva sua mensagem" class="required" required></textarea>
         </div>
         <div class="contato_caixa">
           <button type="submit" class="contato-caixa__botao" data-button>Enviar mensagem</button>
