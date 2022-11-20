@@ -3,6 +3,7 @@
   font-weight: 100;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 1px blue;
   text-align: center;
 }
 @media (max-width: 768px) {

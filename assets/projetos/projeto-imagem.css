@@ -3,7 +3,7 @@
   height: 150px;
   width: 250px;
   border-radius: 5px;
-  border: 2px solid var(--cor-destaque);
+
   transition: 0.5s;
 }
 .projeto__imagemPiano {
@@ -11,7 +11,6 @@
   height: 150px;
   width: 250px;
   border-radius: 5px;
-  border: 2px solid var(--cor-destaque);
   transition: 0.5s;
 }
 .projeto__imagemSite {
@@ -20,14 +19,12 @@
   width: 250px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid var(--cor-destaque);
 }
 .projeto__imagemReceita {
   background: url("../img/site__receita.css.png") center / cover no-repeat;
   height: 150px;
   width: 250px;
   border-radius: 5px;
-  border: 2px solid var(--cor-destaque);
 }
 .projeto__imagemNlw {
   background: url("../img/projetos/imagemNlw.jpg") center / cover no-repeat;
@@ -35,7 +32,6 @@
   width: 250px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid var(--cor-destaque);
 }
 .projeto__imagemvalidacaoJs {
   background: url("../img/projetos/validacao-js.jpeg") center / cover no-repeat;
@@ -43,7 +39,6 @@
   width: 250px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid var(--cor-destaque);
 }
 .projeto__imagemGithub {
   background: url("../img/projetos/imagemGithub.jpg") center / cover no-repeat;
@@ -51,7 +46,6 @@
   width: 250px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid var(--cor-destaque);
 }
 .projeto__imagemNlw:hover,
 .projeto__imagemGithub:hover,
@@ -70,7 +64,6 @@
     width: 260px;
   }
   .projeto__imagemSite:hover {
-    border: 2px solid black;
     height: 160px;
     width: 260px;
   }

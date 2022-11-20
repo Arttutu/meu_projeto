@@ -1,6 +1,7 @@
 .banner__nome {
-  color:  var(--cor-destaque);
+  color: var(--cor-destaque);
   text-align: center;
+  text-shadow: 2px 2px 2px orange;
   font-size: 50px;
   font-family: "Roboto", sans-serif;
 }
