@@ -58,7 +58,7 @@ header {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: var(--cor-verde);
+ 
 }
 
 .login__button button a {
@@ -88,7 +88,7 @@ header {
   }
 
   .mobile__menu {
-    background-color: var(--branca);
+    background-color: var(--cor-grey);
     height: auto;
     width: 100%;
  
