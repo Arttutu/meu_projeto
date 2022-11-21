@@ -4,8 +4,8 @@
 }
 :root {
   --cor-verde: #2f4f4f;
-  --cor-destaque: orange;
-  --cor-grey: #363636;
+  --cor-destaque: #2f4f4f;
+  --cor-grey: whitesmoke;
   --spring-verde: #00ff7f;
   --cor-branca-pastel: #c0c0c0;
   --branca: #ffffff;
@@ -14,8 +14,8 @@
   /*
  background-image:linear-gradient(#ff0060,#ff6975 );
  */
-  background: black;
-  color: black;
+  background: var(--cor-verde);
+  color: var(--cor-verde);
 }
 htmL {
   scroll-behavior: smooth;

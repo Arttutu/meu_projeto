@@ -4,18 +4,14 @@
   border-radius: 5px;
   border: none;
   text-align: center;
-  background-color: var(--cor-grey);
+  background-color: var(--cor-verde);
   padding: 5px 5px;
   transition: 0.2s;
 }
 .codigo a {
   align-items: center;
   text-decoration: italic;
-  background-color: var(--cor-grey);
-  color: var(--cor-destaque);
+  background-color: var(--cor-verde);
+  color: var(--branca);
   transition: 0.1s;
-}
-.codigo a:hover,
-.codigo:hover {
-  background-color: var(--cor-branca-pastel);
 }

@@ -13,8 +13,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 5px;
-
-  color: var(--branca);
+  color: black;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
@@ -35,15 +34,14 @@ header {
   border-radius: 5px;
   padding-left: 15px;
   padding-right: 15px;
-
-  color: rgba(255, 255, 255, 0.438);
+  color: rgba(0, 0, 0, 0.438);
   font-size: 17px;
   font-family: "Roboto", sans-serif;
 
   transition: 0.5s;
 }
 .nav__link__home {
-  color: var(--branca);
+  color: black;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   transition: 0.5s;
