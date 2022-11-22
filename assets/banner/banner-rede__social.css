@@ -4,6 +4,7 @@
   justify-content: center;
   margin-bottom: 16px;
   border: 1px solid white;
+  border-radius: 5%;
 }
 .img__banner {
   width: 32px;
