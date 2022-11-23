@@ -88,9 +88,12 @@
 <body class="corpo">
   <header>
     <nav id="nav__bar">
-      <div class="logo__nave">
-        <h1><a href="#banner" class="nav__link__home">Home</a></h1>
-      </div>
+
+      <a href="#banner" class="nav__link__home">
+        <img src="./assets/img/icon/home.svg ">
+        <h1>Home</h1>
+      </a>
+
       <div class="nav__list">
         <ul>
 
@@ -125,7 +128,7 @@
 
         <h1 class="banner__nome"> Eu sou Arthur Gomes. </h1>
         <p class="banner__descricao">Estudante de programação e amante da tecnologia </p>
-        
+
 
         <ul class="banner__rede-social">
           <li class="banner__item">
@@ -147,7 +150,7 @@
         </ul>
 
       </div>
-      
+
     </section>
 
 
@@ -356,15 +359,17 @@
     <section class="contato" id="contato">
 
       <h2 class="contato__titulo">Me contrate</h2>
-      <form  id ="formulario"action="https://formsubmit.co/ajax/arthurtt08@gmail.com" method="POST" data-form>
+      <form id="formulario" action="https://formsubmit.co/ajax/arthurtt08@gmail.com" method="POST" data-form>
         <div class="contato_caixa">
           <input type="text" name="nome" id="nome" placeholder="Nome" class="required" required>
         </div>
         <div class="contato_caixa">
-          <input type="email" class="form-control" name="email" id="email" class="required" placeholder="E-mail" required>
+          <input type="email" class="form-control" name="email" id="email" class="required" placeholder="E-mail"
+            required>
         </div>
         <div class="contato_caixa">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="assunto" class="required"required>
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="assunto" class="required"
+            required>
         </div>
         <div class="contato_caixa">
           <textarea class="contato-caixa__mensagem" name="mensagem" id="mensagem" rows="5"
