@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logo__avatar {
+  fill: white;
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .logo {
+    flex-direction: column;
+  }
+  .logo__avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
