@@ -5,9 +5,10 @@
   line-height: 2rem;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
+  color: var(--cor-destaque);
 }
 @media (max-width: 500px) {
   .rodape__mensagem {
-    font-size:  15px;
+    font-size: 15px;
   }
 }
