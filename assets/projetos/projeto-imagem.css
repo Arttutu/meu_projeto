@@ -65,56 +65,6 @@
   }
   .projeto__imagemSite:hover {
     height: 160px;
-    width: 20px;
-  }
-  .projeto__imagemFlutter {
-    background: url("../img/projetos/flutter__app.png") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-
-    transition: 0.5s;
-  }
-  .projeto__imagemPiano {
-    background: url("../img/projetos/imagemPiano.png") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
-  .projeto__imagemSite {
-    background: url("../img/projetos/foto_site.png") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
-  .projeto__imagemReceita {
-    background: url("../img/site__receita.css.png") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-  }
-  .projeto__imagemNlw {
-    background: url("../img/projetos/imagemNlw.jpg") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
-  .projeto__imagemvalidacaoJs {
-    background: url("../img/projetos/validacao-js.jpeg") center / cover
-      no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
-  .projeto__imagemGithub {
-    background: url("../img/projetos/imagemGithub.jpg") center / cover no-repeat;
-    height: 150px;
-    width: 200px;
-    border-radius: 5px;
-    transition: 0.5s;
+    width: 260px;
   }
 }
