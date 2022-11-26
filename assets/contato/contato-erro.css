@@ -1,0 +1,8 @@
+.span-required {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  position: relative;
+  left: 740px;
+  top: -10px;
+  display: none;
+}

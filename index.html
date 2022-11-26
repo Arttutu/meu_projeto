@@ -73,10 +73,12 @@
   <link href="assets\rodape\rodape-mensagem.css" rel="stylesheet" />
   <link href="assets\navegacao.css" rel="stylesheet" />
   <link href="assets\logo.css" rel="stylesheet" />
+  <link href="assets/contato/contato-erro.css" rel="stylesheet" />
 
   <script defer src="js\form.js"></script>
   <script defer src="./js/projeto.js"></script>
   <script defer src="./js/nav.js"></script>
+  <script defer src="./js/validacaoForm.js"></script>
   <STYLE>
     a {
       text-decoration: none;
@@ -364,11 +366,13 @@
       <h2 class="contato__titulo">Me contrate</h2>
       <form id="formulario" action="https://formsubmit.co/ajax/arthurtt08@gmail.com" method="POST" data-form>
         <div class="contato_caixa">
-          <input type="text" name="nome" id="nome" placeholder="Nome" class="required" required>
+          <input type="text" name="nome" id="nome" placeholder="Nome" class="required" oninput="nameValidate()">
+          <span class="span-required">Nome não pode ser menor que 3 caracter</span>
         </div>
         <div class="contato_caixa">
           <input type="email" class="form-control" name="email" id="email" class="required" placeholder="E-mail"
-            required>
+            oninput="emailValidate()">
+          <span class="span-required">Esse email não é válido</span>
         </div>
         <div class="contato_caixa">
           <input type="text" class="form-control" name="subject" id="subject" placeholder="assunto" class="required"
