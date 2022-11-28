@@ -9,7 +9,11 @@
   .sobreMim__conteiner {
     flex-direction: column;
     align-items: center;
-    width: 500px;
-    margin: auto;
+    max-width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .sobreMim__conteiner {
+    width: 240px;
   }
 }
