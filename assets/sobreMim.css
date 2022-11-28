@@ -1,22 +1,7 @@
 .sobreMim {
   background-color: white;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px;
-  width: 1024px;
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
   font-family: "Roboto", sans-serif;
-}
-@media (max-width: 768px) {
-  s .sobreMim {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media (max-width: 500px) {
-  .sobreMim {
-    width: 240px;
-  }
 }

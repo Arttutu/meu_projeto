@@ -1,5 +1,5 @@
 .sobreMim__descricao {
-  font-size: 15px;
+  font-size: 17px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -8,6 +8,7 @@
   .sobreMim__descricao {
     padding-top: 20px;
     font-size: 15px;
-    text-align: center;
+
+    margin: 0 20px;
   }
 }
