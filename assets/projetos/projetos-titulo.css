@@ -3,7 +3,9 @@
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  color: var(--cor-destaque);
+  text-decoration: underline;
+
+  color: var(--color-1);
 }
 @media (max-width: 768px) {
   .projetos__titulo {

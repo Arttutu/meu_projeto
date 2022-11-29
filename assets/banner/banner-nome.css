@@ -1,5 +1,5 @@
 .banner__nome {
-  color: whitesmoke;
+  color: var(--color-1);
   text-align: center;
   text-shadow: 2px 2px 2px whitesmoke;
   font-size: 50px;

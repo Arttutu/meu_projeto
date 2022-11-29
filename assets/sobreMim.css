@@ -1,5 +1,5 @@
 .sobreMim {
-  background-color: white;
+  background-color: var(--color-7);
   margin: 0 auto;
   padding: 40px 0;
   width: 100%;

@@ -1,21 +1,9 @@
 .educacao {
-  background: whitesmoke;
+  background: var(--color-7);
   border-radius: 5px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
-  width: 1024px;
-}
-@media (max-width: 768px) {
-  .educacao {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (max-width: 500px) {
-  .educacao {
-    width: 240px;
-  }
+  padding: 40px 0px;
+  width: 100%;
 }

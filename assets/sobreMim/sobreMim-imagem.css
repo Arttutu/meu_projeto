@@ -1,6 +1,7 @@
 .sobreMim_imagem_web {
   width: 200px;
   height: 150px;
+  clip-path: circle(50% at 50% 50%);
 }
 
 @media (max-width: 768px) {

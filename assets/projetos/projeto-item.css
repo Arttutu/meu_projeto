@@ -7,8 +7,9 @@
   gap: 0.5rem;
   padding-bottom: 30px;
 }
+
 @media (max-width: 768px) {
   .projeto__item {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
