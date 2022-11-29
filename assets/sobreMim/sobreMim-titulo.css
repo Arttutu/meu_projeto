@@ -3,7 +3,6 @@
   font-size: 25px;
   color: var(--color-1);
   text-align: center;
-  text-decoration: underline;
 }
 @media (max-width: 768px) {
   .sobreMim__titulo {

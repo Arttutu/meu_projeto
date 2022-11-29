@@ -3,5 +3,5 @@
   font-size: 17px;
   margin-top: 5px;
   margin-bottom: 8px;
-  color: white;
+  color: var(--color-1);
 }

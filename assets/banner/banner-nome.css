@@ -1,7 +1,7 @@
 .banner__nome {
   color: var(--color-1);
   text-align: center;
-  text-shadow: 2px 2px 2px whitesmoke;
+  text-shadow: 2px 2px 2px var(--color-1);
   font-size: 50px;
   font-family: "Roboto", sans-serif;
 }
