@@ -4,14 +4,17 @@
   border-radius: 5px;
   border: none;
   text-align: center;
-  background-color: var(--color-3);
-  padding: 5px 5px;
+  background-color: var(--color-8);
+  padding: 5px;
   transition: 0.2s;
 }
 .codigo a {
   align-items: center;
   text-decoration: italic;
-  background-color: var(--color-3);
-  color: var(--branca);
+  background-color: var(--color-8);
+  color: var(--color-7);
   transition: 0.1s;
+}
+.codigo:hover {
+  padding: 10px;
 }

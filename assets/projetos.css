@@ -1,7 +1,18 @@
 .projetos {
   background-color: var(--color-7);
-  margin-top: 50px;
-  padding: 40px 0;
-  width: 100%;
+  padding: 40px;
+  margin: 50px auto;
+  border-radius: 5px;
+  width: 1024px;
   height: auto;
+}
+@media (max-width: 768px) {
+  .projetos {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .projetos {
+    width: 240px;
+  }
 }

@@ -3,17 +3,10 @@
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  width: 1024px;
 }
-
 @media (max-width: 768px) {
   .educacao__row {
     flex-direction: column;
-    width: 500px;
-  }
-}
-@media (max-width: 500px) {
-  .educacao__row {
-    width: 240px;
+    gap: 1rem;
   }
 }

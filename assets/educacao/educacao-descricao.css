@@ -1,5 +1,5 @@
 .educacao__descricao {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
-  color: white;
+  color: var(--color-1);
 }

@@ -4,6 +4,18 @@
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 0px;
-  width: 100%;
+  border-radius: 5px;
+  padding: 40px;
+  width: 1024px;
+}
+@media (max-width: 768px) {
+  .educacao {
+    flex-direction: column;
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .educacao {
+    width: 240px;
+  }
 }

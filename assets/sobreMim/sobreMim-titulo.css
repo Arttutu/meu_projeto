@@ -1,8 +1,8 @@
 .sobreMim__titulo {
   padding-bottom: 50px;
   font-size: 25px;
-  color: var(--color-1);
-  text-align: center;
+  color: var(black);
+  text-align: left;
 }
 @media (max-width: 768px) {
   .sobreMim__titulo {

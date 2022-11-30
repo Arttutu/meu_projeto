@@ -3,7 +3,7 @@
   padding: 0;
 }
 :root {
-  --color-1: yellow;
+  --color-1: black;
 
   --color-2: #df4c2d;
 
@@ -15,9 +15,9 @@
 
   --color-6: #602113;
 
-  --color-7: rgb(61, 59, 59);
+  --color-7: white;
 
-  --color-8: black;
+  --color-8: #0b3b0b;
 }
 .corpo {
   /*

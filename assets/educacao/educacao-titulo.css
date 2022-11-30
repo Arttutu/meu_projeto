@@ -1,7 +1,6 @@
 .educacao__titulo {
   color: var(--color-1);
-  text-align: center;
-
+  text-align: left;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   margin-bottom: 50px;

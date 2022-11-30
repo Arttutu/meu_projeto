@@ -1,7 +1,5 @@
 .grid {
   display: grid;
-  margin: 0 auto;
-  width: 1024px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50% 50%;
   gap: 2rem;
@@ -11,11 +9,5 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
-  }
-}
-@media (max-width: 500px) {
-  .grid {
-    max-width: 240px;
   }
 }
