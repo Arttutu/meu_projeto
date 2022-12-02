@@ -5,16 +5,16 @@
   margin: 0 400px;
   height: 100vh;
 }
-
+.logo__avatar {
+  width: 700px;
+  height: 700px;
+  z-index: -1;
+}
 @media (max-width: 768px) {
   .logo {
     justify-content: space-between;
     margin: 0 100px;
     align-items: center;
-  }
-  .logo__avatar {
-    width: 400px;
-    height: 400px;
   }
 }
 @media (max-width: 500px) {
