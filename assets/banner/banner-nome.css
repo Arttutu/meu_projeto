@@ -7,6 +7,7 @@
 }
 @media (max-width: 768px) {
   .banner__nome {
+    text-shadow: none;
     font-size: 30px;
   }
 }
