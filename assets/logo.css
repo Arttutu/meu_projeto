@@ -14,10 +14,7 @@
 
 @media (max-width: 768px) {
   .logo {
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 100px 0;
-    align-items: center;
+    justify-content: center;
   }
   .logo__avatar {
     background: url(./img/logo-avatar.png) center / cover no-repeat;
@@ -30,15 +27,9 @@
 }
 @media (max-width: 500px) {
   .logo {
-    justify-content: space-around;
-    margin: 30px 10px;
+    justify-content: center;
   }
   .logo__avatar {
-    background: url(./img/logo-avatar.png) center / cover no-repeat;
-    opacity: 0.5;
-    z-index: -1;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
+    background: url(./img/logo-avatar.png) cover / center no-repeat;
   }
 }
