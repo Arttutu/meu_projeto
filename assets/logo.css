@@ -24,8 +24,6 @@
     margin: 30px 10px;
   }
   .logo__avatar {
-    width: 250px;
-    height: 250px;
-    background: url(./img/logo-avatar.svg) center;
+    display: none;
   }
 }

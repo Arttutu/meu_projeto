@@ -6,3 +6,8 @@
   text-shadow: 1px 1px 1px whitesmoke;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .banner__descricao {
+    font-size: 17px;
+  }
+}
