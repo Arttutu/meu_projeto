@@ -1,7 +1,9 @@
 .logo {
+  gap: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 150px;
   height: 100vh;
 }
 .logo__avatar {
@@ -24,6 +26,10 @@
     margin: 30px 10px;
   }
   .logo__avatar {
-    display: none;
+    background: url(./img/logo-avatar.png) center / cover no-repeat;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
   }
 }
