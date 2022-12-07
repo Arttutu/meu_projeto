@@ -2,8 +2,13 @@
   color: var(--color-7);
   text-align: center;
   text-shadow: 2px 2px 2px var(--color-7);
-  font-size: 50px;
+  font-size: 80px;
   font-family: "Roboto", sans-serif;
+}
+@media (max-width: 1366px) {
+  .banner__nome {
+    font-size: 40px;
+  }
 }
 @media (max-width: 768px) {
   .banner__nome {

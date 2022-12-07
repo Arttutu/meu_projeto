@@ -2,16 +2,21 @@
   gap: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 0 150px;
+  justify-content: space-between;
   height: 100vh;
+  margin: auto 400px;
 }
 .logo__avatar {
-  background: url(./img/logo-avatar.png) center;
-  width: 400px;
-  height: 400px;
+  background: url(./img/logo-avatar.png) no-repeat;
+  width: 500px;
+  height: 500px;
 }
-
+@media (max-width: 1366px) {
+  .logo {
+    justify-content: center;
+    margin: 0;
+  }
+}
 @media (max-width: 768px) {
   .logo {
     justify-content: center;
@@ -24,13 +29,5 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-  }
-}
-@media (max-width: 500px) {
-  .logo {
-    justify-content: center;
-  }
-  .logo__avatar {
-    background: url(./img/logo-avatar.png) cover / center no-repeat;
   }
 }
