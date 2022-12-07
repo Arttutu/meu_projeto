@@ -1,5 +1,10 @@
 .linguagem__descricao {
   font-family: "Roboto", sans-serif;
   margin-left: 17px;
-  font-size: 15px;
+  font-size: 17px;
+}
+@media (max-width: 1366px) {
+  .linguagem__descricao {
+    font-size: 15px;
+  }
 }

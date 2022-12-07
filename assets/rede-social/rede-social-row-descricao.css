@@ -1,11 +1,12 @@
 .rede-social__descricao {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding-left: 10px;
   color: black;
 }
 @media (max-width: 500px) {
   .rede-social__descricao {
+    font-size: 17;
     text-align: center;
   }
 }

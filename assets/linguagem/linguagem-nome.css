@@ -1,4 +1,9 @@
 .linguagem__nome {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
+}
+@media (max-width: 1366px) {
+  .linguagem__nome {
+    font-size: 17px;
+  }
 }

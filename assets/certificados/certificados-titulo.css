@@ -1,4 +1,9 @@
 .certificados__titulo {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
+}
+@media (max-width: 1366px) {
+  .certificados__titulo {
+    font-size: 20px;
+  }
 }

@@ -1,5 +1,10 @@
 .linguagem__titulo {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 30px;
+}
+@media (max-width: 1366px) {
+  .linguagem__titulo {
+    font-size: 17px;
+  }
 }
