@@ -31,3 +31,13 @@
     height: 100vh;
   }
 }
+@media (max-width: 500px) {
+  .logo {
+    justify-content: top;
+    margin-bottom: 50px;
+  }
+  .logo__avatar {
+    margin-left: 20px;
+    width: 100%;
+  }
+}
