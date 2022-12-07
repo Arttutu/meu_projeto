@@ -1,14 +1,17 @@
 .sobreMim__descricao {
-  font-size: 17px;
+  font-size: 22px;
   padding-left: 20px;
   padding-right: 20px;
   color: black;
 }
-
+@media (max-width: 1366px) {
+  .sobreMim__descricao {
+    font-size: 17px;
+  }
+}
 @media (max-width: 768px) {
   .sobreMim__descricao {
     padding-top: 20px;
-    font-size: 17px;
     text-align: center;
     margin: 0;
   }

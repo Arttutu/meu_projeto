@@ -44,7 +44,7 @@ header {
 }
 .nav__link__home:hover,
 .nav__link:hover {
-  color: var(--color-1);
+  color: var(--color-8);
 }
 .login__button button {
   border: none;
@@ -52,12 +52,6 @@ header {
   border-radius: 5px;
 }
 
-.login__button button a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 1.1rem;
-}
 .mobile-menu-icon {
   display: none;
 }

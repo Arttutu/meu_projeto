@@ -1,7 +1,12 @@
 .educacao__nome {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   margin-top: 5px;
   margin-bottom: 8px;
   color: var(--color-1);
+}
+@media (max-width: 1366px) {
+  .educacao__nome {
+    font-size: 17px;
+  }
 }

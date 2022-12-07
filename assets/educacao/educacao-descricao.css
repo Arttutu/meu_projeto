@@ -1,5 +1,10 @@
 .educacao__descricao {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   color: var(--color-1);
+}
+@media (max-width: 1366px) {
+  .educacao__descricao {
+    font-size: 17px;
+  }
 }

@@ -1,7 +1,12 @@
 .conhecimentos__titulo {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 25px;
+  margin-bottom: 30;
+}
+@media (max-width: 1366px) {
+  .conhecimentos__titulo {
+    font-size: 17px;
+  }
 }
 @media (max-width: 768px) {
   .conhecimentos__titulo {

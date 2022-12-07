@@ -1,7 +1,12 @@
 .projeto__descricao {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   word-break: break-word;
   color: var(--color-1);
+}
+@media (max-width: 1366px) {
+  .projeto__descricao {
+    font-size: 17px;
+  }
 }

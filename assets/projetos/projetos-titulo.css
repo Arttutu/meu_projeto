@@ -1,10 +1,14 @@
 .projetos__titulo {
   margin-bottom: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Roboto", sans-serif;
   text-align: left;
-
   color: var(--color-1);
+}
+@media (max-width: 1366px) {
+  .projetos__titulo {
+    font-size: 17px;
+  }
 }
 @media (max-width: 768px) {
   .projetos__titulo {
