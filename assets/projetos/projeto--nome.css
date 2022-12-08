@@ -3,3 +3,9 @@
   font-size: 20px;
   color: var(--color-1);
 }
+
+@media (max-width: 1366px) {
+  .projeto__nome {
+    font-size: 15px;
+  }
+}

@@ -4,9 +4,9 @@
   padding-left: 10px;
   color: black;
 }
-@media (max-width: 500px) {
+@media (max-width: 1366px) {
   .rede-social__descricao {
-    font-size: 17;
+    font-size: 13px;
     text-align: center;
   }
 }
