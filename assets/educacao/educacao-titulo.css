@@ -7,6 +7,7 @@
 }
 @media (max-width: 1366px) {
   .educacao__titulo {
+    text-align: center;
     font-size: 17px;
   }
 }

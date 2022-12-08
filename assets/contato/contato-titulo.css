@@ -5,6 +5,7 @@
 }
 @media (max-width: 1366px) {
   .contato__titulo {
+    text-align: center;
     font-size: 17px;
   }
 }
