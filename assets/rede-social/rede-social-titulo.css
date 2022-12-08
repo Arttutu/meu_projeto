@@ -1,11 +1,16 @@
 .rede-social__titulo {
   font-family: "Roboto", sans-serif;
+  text-align: left;
   font-size: 25px;
   margin-bottom: 30px;
 }
 @media (max-width: 1366px) {
   .rede-social__titulo {
-    text-align: center;
     font-size: 17px;
+  }
+}
+@media (max-width: 500px) {
+  .rede-social__titulo {
+    text-align: center;
   }
 }
