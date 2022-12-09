@@ -20,7 +20,6 @@
 @media (max-width: 768px) {
   .logo {
     justify-content: center;
-    margin-bottom: 50px;
   }
   .logo__avatar {
     background: url(./img/logo-avatar.png) center / cover no-repeat;
