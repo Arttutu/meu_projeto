@@ -32,6 +32,6 @@ htmL {
 
 @media (max-width: 500px) {
   .corpo {
-    width: 260px;
+    width: auto;
   }
 }
