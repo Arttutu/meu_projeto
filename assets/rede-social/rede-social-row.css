@@ -3,3 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  .rede-social__row {
+    gap: 0.5rem;
+  }
+}
