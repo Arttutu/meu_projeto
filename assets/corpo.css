@@ -29,3 +29,9 @@
 htmL {
   scroll-behavior: smooth;
 }
+
+@media (max-width: 500px) {
+  .corpo {
+    width: 280px;
+  }
+}
