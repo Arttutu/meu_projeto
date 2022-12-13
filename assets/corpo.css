@@ -25,6 +25,7 @@
  */
   background: var(--color-8);
   color: black;
+  margin: 0 auto;
 }
 htmL {
   scroll-behavior: smooth;
