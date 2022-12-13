@@ -10,7 +10,8 @@
   .sobreMim {
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+
+    width: 500px;
   }
 }
 @media (max-width: 500px) {
