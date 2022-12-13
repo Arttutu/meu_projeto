@@ -1,4 +1,6 @@
 .sobreMim {
+  display: flex;
+  justify-content: center;
   background-color: var(--color-7);
   margin: 0 auto;
   padding: 40px;
@@ -10,7 +12,6 @@
   .sobreMim {
     flex-direction: column;
     align-items: center;
-
     width: 500px;
   }
 }
